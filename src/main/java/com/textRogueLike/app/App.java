@@ -11,30 +11,26 @@ import com.googlecode.lanterna.terminal.Terminal;
 
 /**
  * Hello world!
- *
  */
-public class App 
-{
+public class App {
     //public static void main( String[] args )
-    public static void main( String[] args ) throws IOException
-    {
-				Terminal terminal = new DefaultTerminalFactory().createTerminal();
-/*
-				Screen screen = new TerminalScreen(terminal);
+    public static void main(String[] args) throws IOException, InterruptedException {
+        Terminal terminal = new DefaultTerminalFactory().createTerminal();
+        Screen screen = new TerminalScreen(terminal);
 
-				String s = "Hello World!";
-				TextGraphics tGraphics = screen.newTextGraphics();
+        String s = "Hello World!";
+        TextGraphics tGraphics = screen.newTextGraphics();
 
-				screen.startScreen();
-				screen.clear();
+        screen.startScreen();
+        screen.clear();
 
-				tGraphics.putString(10, 10, s);
-				screen.refresh();
+        tGraphics.putString(10, 10, s);
+        screen.refresh();
 
-				screen.readInput();
-				screen.stopScreen();
-	*/
+        screen.readInput();
+        screen.stopScreen();
 
-				//System.out.println( "Hello World!" );
+        System.out.println("Terminal exiting");
+        Thread.sleep(3000);
     }
 }
