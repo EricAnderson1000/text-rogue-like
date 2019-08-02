@@ -26,10 +26,8 @@ public class App {
 
         tGraphics.putString(10, 10, s);
         screen.refresh();
-
-        screen.readInput();
-        screen.stopScreen();
-
+				screen.readInput();
+				screen.stopScreen();
         System.out.println("Terminal exiting");
         Thread.sleep(3000);
     }
