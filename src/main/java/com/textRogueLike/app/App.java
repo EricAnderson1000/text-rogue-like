@@ -19,7 +19,6 @@ public class App
     public static void main( String[] args ) throws IOException
     {
 				Terminal terminal = new DefaultTerminalFactory().createTerminal();
-/*
 				Screen screen = new TerminalScreen(terminal);
 
 				String s = "Hello World!";
@@ -33,7 +32,6 @@ public class App
 
 				screen.readInput();
 				screen.stopScreen();
-	*/
 
 				//System.out.println( "Hello World!" );
     }

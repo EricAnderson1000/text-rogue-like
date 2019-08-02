@@ -1,3 +1,3 @@
 mvn clean compile
- cd target/classes/
- java com.textRogueLike.app.App
+cd target/classes/
+mvn exec:java
